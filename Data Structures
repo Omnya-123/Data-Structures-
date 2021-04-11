@@ -9,19 +9,4 @@ int main () {
 Node* frist =new Node ();
 frist->data ='O';
 }
-int main () {
-Node* second =new Node ();
-second->data ='m';
-}
-int main () {
-Node* third =new Node ();
-third->data ='n';
-}
-int main () {
-Node* fourth =new Node ();
-fourth->data ='y';
-}
-int main () {
-Node* fifth =new Node ();
-fifth->data ='a';
-}
+
