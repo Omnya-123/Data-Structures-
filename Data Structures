@@ -1,12 +1,37 @@
-#include <iostream>
-using namespace std ;
+#include<iostream>
+using namespace std;
 class Node {
-public :
-char data ;
-Node* next ;
+public:
+	char data;
+	Node* next;
 };
-int main () {
-Node* frist =new Node ();
-frist->data ='O';
-}
+int main() {
+	Node* first = new Node();
+	Node* second = new Node();
+	Node* third  = new Node();
+	Node* fourth = new Node();
+	Node* fifth  = new Node();
+	first->data = 'O';
+	first->next = second;
+	second->data = 'M';
+	second->next = third;
+	third->data = 'N';
+	third->next = fourth;
+	fourth->data = 'Y';
+	fourth->next = fifth;
+	fifth->data = 'A';
 
+	cout << first->data << endl;
+
+	cout << second->data<< endl;
+  
+	cout << third-> data << endl;
+	 
+	cout << fourth->data << endl; 
+
+	cout <<fifth->data << endl; 
+	
+
+
+	return 0;
+}
